@@ -130,6 +130,7 @@ table {
 
 body {
   background-color: antiquewhite;
+  height: 100vh;
 }
 .wrapper {
   display: flex;
@@ -139,6 +140,8 @@ body {
   background-color: white;
   justify-content: center;
   gap: 1rem;
+  margin-top: 10rem;
+  border-radius: 10px;
 }
 .infoContainer {
   display: flex;
@@ -150,6 +153,8 @@ body {
 .imageContainer img {
   height: 25rem;
   object-fit: cover;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
 }
 
 #perfume {
@@ -223,9 +228,15 @@ body {
   .imageContainer {
     background: url("images\image-product-mobile.jpg");
     display: flex;
+    /* border-radius: 0; */
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
   }
   .imageContainer img {
     width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 0;
   }
   .infoContainer * {
     width: 90%;
